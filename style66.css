@@ -1,0 +1,51 @@
+body {
+    
+    text-decoration: none;
+    display: grid;
+    margin: 0%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+nav{
+    background-color: grey;
+    overflow: hidden;
+}
+nav a:hover{
+    color: rgb(62, 247, 139);
+}
+
+header{
+    padding: 50px;
+    background: #333;
+    text-align: center;
+    background-color:#333;
+    font-size : large;
+}
+footer{
+    background-color: rgb(16, 211, 130);
+}
+.abt-image{
+    float: right;
+    border: 2px solid black;
+}
+.img1,.img2,.img3{
+    border: 2px solid black;
+    margin: 1px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img1:hover,.img2:hover,.img3:hover{
+    padding:  20px 30px;
+
+}
+.img11,.img12,.img13{
+    display: flex;
+    flex-wrap: wrap;
+}
